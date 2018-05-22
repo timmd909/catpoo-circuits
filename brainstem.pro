@@ -1,4 +1,4 @@
-update=Mon 21 May 2018 11:29:09 PM EDT
+update=Mon 21 May 2018 11:51:15 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=library/arduino_micro_shield/arduino_micro_shield
+LibName31=library/kicad-symbols/Driver_Motor
