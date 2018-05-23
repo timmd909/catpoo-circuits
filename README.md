@@ -7,4 +7,5 @@ to create PCBs.
 
 ## Special Thanks
 
-* [Arduino Micro shield](https://github.com/adamf/arduino_micro_shield)
+* [Arduino Micro shield](https://github.com/adamf/arduino_micro_shield) - Good reference
+* [OSHPark](https://oshpark.com) - For printing out beautiful PCBs
