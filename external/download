@@ -1,0 +1,17 @@
+#!/bin/bash
+
+function download
+{
+  FILENAME="$1"
+  URL="$2"
+  echo "Downloading $FILENAME"
+  curl "$URL" > "$FILENAME"
+  echo
+}
+
+pushd "`dirname $0`" > /dev/null 2>&1
+
+download "DRV 8825 Stepper Motor Carrier, High Current.fzpz" "http://fritzing.org/media/fritzing-repo/projects/d/drv-8825-stepper-motor-carrier-high-current/fritzing/DRV%208825%20Stepper%20Motor%20Carrier%2C%20High%20Current.fzpz"
+download "A4988.fzz" "http://fritzing.org/media/fritzing-repo/projects/a/a4988/fritzing/A4988.fzz"
+
+popd > /dev/null 2>&1
