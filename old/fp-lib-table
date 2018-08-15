@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Mounting_Holes)(type KiCad)(uri "$(KISYSMOD)Mounting_Holes.pretty")(options "")(descr ""))
-)
