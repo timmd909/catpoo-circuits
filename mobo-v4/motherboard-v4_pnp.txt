@@ -1,0 +1,52 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=motherboard-v4
+*Date=16:22:22
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;38.5649;-35.4111;90;Bottom;IMG1
+2;1µF;100 mil [THT, electrolytic];61.4509;-45.7814;180;Bottom;C2
+3;;;61.1578;-3.71321;0;Bottom;IMG1
+4;;;24.6246;-3.87989;0;Bottom;TXT2
+5;;THT;55.1009;-64.8314;90;Bottom;LOGIC5
+6;;THT;15.7309;-45.7814;90;Bottom;RIGHT
+7;;THT;15.7309;-15.3014;90;Bottom;BACK
+8;;;60.0261;-65.0934;0;Bottom;TXT2
+9;;THT;57.5139;-12.5074;-90;Bottom;J9
+10;1µF;100 mil [THT, electrolytic];61.4509;-31.8114;180;Bottom;C3
+11;;THT;15.7309;-25.4614;90;Bottom;BACK
+12;;;46.4334;-2.85186;0;Bottom;TXT2
+13;;;3.03089;-66.1014;0;Bottom;Hole8
+14;;;66.5309;-3.87142;0;Bottom;Hole6
+15;;;60.2235;-36.9304;90;Bottom;J4
+16;;;50.4204;-65.0068;0;Bottom;TXT2
+17;;;21.6805;-34.4399;0;Bottom;TXT3
+18;;;3.03089;-3.87142;0;Bottom;Hole7
+19;;;66.5309;-66.1014;0;Bottom;Hole9
+20;;THT;15.7309;-35.6214;90;Bottom;FRONT RIGHT
+21;;THT;15.7309;-66.1014;90;Bottom;LEFT
+22;;;60.2235;-54.7104;90;Bottom;J1
+23;;;20.1429;-1.84158;0;Bottom;TXT4
+24;1µF;100 mil [THT, electrolytic];42.4009;-50.8614;180;Bottom;C7
+25;;;21.9693;-14.6225;0;Bottom;TXT3
+26;;;60.2235;-40.7404;90;Bottom;J3
+27;47µF;100 mil [THT, electrolytic];9.3809;-35.6214;90;Bottom;C5
+28;;;39.8609;-38.1438;0;Bottom;Arduino Micro
+29;1µF;100 mil [THT, electrolytic];61.4935;-59.7904;180;Bottom;C1
+30;;;60.2235;-50.9004;90;Bottom;J2
+31;47µF;100 mil [THT, electrolytic];9.3809;-55.9414;90;Bottom;C4
+32;47µF;100 mil [THT, electrolytic];9.3809;-15.3014;90;Bottom;C6
+33;;;21.5171;-55.1416;0;Bottom;TXT3
+34;;;60.2235;-26.7704;90;Bottom;J5
+35;;;39.9175;-15.0335;0;Bottom;TXT1
+36;;THT;15.7309;-55.9414;90;Bottom;FRONT LEFT
+37;;;60.2235;-22.9604;90;Bottom;J6
