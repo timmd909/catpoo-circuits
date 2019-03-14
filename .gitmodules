@@ -1,1 +1,7 @@
 
+[submodule "kicad-library"]
+	path = kicad-library
+	url = https://github.com/jonbuford/kicad-library.git
+[submodule "RPi_Hat_Template"]
+	path = RPi_Hat_Template
+	url = https://github.com/xesscorp/RPi_Hat_Template.git
