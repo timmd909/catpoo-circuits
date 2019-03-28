@@ -207,18 +207,10 @@ Connection ~ 1850 2750
 Wire Wire Line
 	1850 2450 1350 2450
 Connection ~ 1850 2450
-Text GLabel 3150 7100 3    50   Input ~ 0
+Text GLabel 4400 3450 2    50   Input ~ 0
 MOTOR_VIN
-Text GLabel 2950 7100 3    50   Input ~ 0
+Text GLabel 4400 3550 2    50   Input ~ 0
 MOTOR_GND
-Text GLabel 4850 7100 3    50   Input ~ 0
-RPI_VIN
-Text GLabel 4650 7100 3    50   Input ~ 0
-RPI_GND
-Text GLabel 6950 1750 2    50   Input ~ 0
-RPI_VIN
-Text GLabel 4000 1000 2    50   Input ~ 0
-RPI_GND
 $Comp
 L CATPOO:SHARP_GP2Y0A21YK0F U7
 U 1 1 5C998818
@@ -296,40 +288,14 @@ NoConn ~ 3000 4300
 $Comp
 L Connector:Screw_Terminal_01x02 J5
 U 1 1 5CDAA991
-P 3100 6450
-F 0 "J5" H 3250 6400 50  0000 C CNN
-F 1 "MOTOR PWR" V 3350 6450 50  0000 C CNN
-F 2 "CATPOO:TerminalBlock_Pololu-2_P5.00mm" H 3100 6450 50  0001 C CNN
-F 3 "~" H 3100 6450 50  0001 C CNN
-	1    3100 6450
-	0    1    -1   0   
+P 4200 3450
+F 0 "J5" H 4350 3400 50  0000 C CNN
+F 1 "MOTOR PWR" H 4200 3600 50  0000 C CNN
+F 2 "CATPOO:TerminalBlock_Pololu-2_P5.00mm" H 4200 3450 50  0001 C CNN
+F 3 "~" H 4200 3450 50  0001 C CNN
+	1    4200 3450
+	-1   0    0    -1  
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J6
-U 1 1 5CDB16D5
-P 4800 6450
-F 0 "J6" H 4950 6400 50  0000 C CNN
-F 1 "RPI PWR" V 5050 6450 50  0000 C CNN
-F 2 "CATPOO:TerminalBlock_Pololu-2_P5.00mm" H 4800 6450 50  0001 C CNN
-F 3 "~" H 4800 6450 50  0001 C CNN
-	1    4800 6450
-	0    1    -1   0   
-$EndComp
-$Comp
-L Connector:Raspberry_Pi_2_3 J7
-U 1 1 5C82C37F
-P 5200 1950
-F 0 "J7" V 5154 3291 50  0000 L CNN
-F 1 "Raspberry_Pi_2_3" V 5245 3291 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5200 1950 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5200 1950 50  0001 C CNN
-	1    5200 1950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3000 6650 2950 6650
-Wire Wire Line
-	3150 6650 3100 6650
 Entry Wire Line
 	7700 5500 7800 5600
 Entry Wire Line
@@ -480,12 +446,6 @@ NoConn ~ 6550 4350
 NoConn ~ 6550 4250
 NoConn ~ 5950 3950
 NoConn ~ 6050 3950
-Text GLabel 1950 5100 3    50   Input ~ 0
-ARDUINO_GND
-Text GLabel 1950 3450 3    50   Input ~ 0
-ARDUINO_GND
-Text GLabel 1950 1800 3    50   Input ~ 0
-ARDUINO_GND
 Entry Wire Line
 	3400 1500 3500 1600
 Entry Wire Line
@@ -596,69 +556,6 @@ Text Label 4500 4850 0    50   ~ 0
 STEP1
 Text Label 4500 4950 0    50   ~ 0
 SLEEP1
-Wire Wire Line
-	5800 2700 5800 2750
-Wire Wire Line
-	5700 2700 5700 2750
-Wire Wire Line
-	6950 1750 6500 1750
-$Comp
-L Device:CP1_Small C5
-U 1 1 5C96E296
-P 4750 6900
-F 0 "C5" H 4800 6700 50  0000 R CNN
-F 1 "CP1_Small" H 5050 7100 50  0000 R CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4750 6900 50  0001 C CNN
-F 3 "~" H 4750 6900 50  0001 C CNN
-	1    4750 6900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4650 6650 4700 6650
-Wire Wire Line
-	4800 6650 4850 6650
-Wire Wire Line
-	4000 1000 3800 1000
-Wire Wire Line
-	3800 1000 3800 1550
-Wire Wire Line
-	3800 1550 3900 1550
-NoConn ~ 6100 1150
-NoConn ~ 6000 1150
-NoConn ~ 5800 1150
-NoConn ~ 5700 1150
-NoConn ~ 5600 1150
-NoConn ~ 5400 1150
-NoConn ~ 5300 1150
-NoConn ~ 5200 1150
-NoConn ~ 5000 1150
-NoConn ~ 4900 1150
-NoConn ~ 4800 1150
-NoConn ~ 4700 1150
-NoConn ~ 4600 1150
-NoConn ~ 4500 1150
-NoConn ~ 3900 2250
-NoConn ~ 3900 2150
-NoConn ~ 3900 2050
-NoConn ~ 3900 1950
-NoConn ~ 3900 1850
-NoConn ~ 3900 1750
-NoConn ~ 3900 1650
-NoConn ~ 4400 2750
-NoConn ~ 4500 2750
-NoConn ~ 4700 2750
-NoConn ~ 4800 2750
-NoConn ~ 4900 2750
-NoConn ~ 5000 2750
-NoConn ~ 5100 2750
-NoConn ~ 5300 2750
-NoConn ~ 5400 2750
-NoConn ~ 5500 2750
-NoConn ~ 6000 2750
-NoConn ~ 6100 2750
-NoConn ~ 6500 2150
-NoConn ~ 6500 2050
-NoConn ~ 6500 1850
 NoConn ~ 5150 4250
 NoConn ~ 5150 4150
 NoConn ~ 5150 4650
@@ -697,16 +594,6 @@ Wire Wire Line
 	7450 3850 5850 3850
 Wire Wire Line
 	7450 4800 7450 5900
-Wire Wire Line
-	4850 6650 4850 6900
-Wire Wire Line
-	4650 6650 4650 6900
-Connection ~ 4850 6900
-Wire Wire Line
-	4850 6900 4850 7100
-Connection ~ 4650 6900
-Wire Wire Line
-	4650 6900 4650 7100
 $Comp
 L CATPOO:ARDUINO_MICRO U4
 U 1 1 5C870C59
@@ -758,40 +645,6 @@ Wire Wire Line
 	5750 3500 5750 3950
 Wire Wire Line
 	7000 3500 7100 3500
-Entry Wire Line
-	4750 4300 4850 4400
-Entry Wire Line
-	4750 4400 4850 4500
-Wire Wire Line
-	5150 4400 4850 4400
-Wire Wire Line
-	4850 4500 5150 4500
-Entry Wire Line
-	4750 3050 4850 3150
-Entry Wire Line
-	4750 3150 4850 3250
-Wire Wire Line
-	5800 2750 5800 3250
-Wire Wire Line
-	5800 3250 4850 3250
-Connection ~ 5800 2750
-Wire Wire Line
-	4850 3150 5700 3150
-Wire Wire Line
-	5700 3150 5700 2750
-Connection ~ 5700 2750
-Text Label 4850 3150 0    50   ~ 0
-SCL
-Text Label 4850 4500 0    50   ~ 0
-SCL
-Text Label 4850 4400 0    50   ~ 0
-SDA
-Text Label 4850 3250 0    50   ~ 0
-SDA
-Wire Wire Line
-	3150 6650 3150 7100
-Wire Wire Line
-	2950 6650 2950 7100
 Wire Wire Line
 	6950 4150 6950 3700
 Wire Wire Line
@@ -809,8 +662,21 @@ Wire Wire Line
 Wire Wire Line
 	6050 6100 6050 5900
 Connection ~ 6050 5900
-Wire Bus Line
-	4750 2950 4750 4500
+Wire Wire Line
+	4850 4400 5150 4400
+Wire Wire Line
+	5150 4500 4850 4500
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5C9F7062
+P 4650 4400
+F 0 "J1" H 4570 4617 50  0000 C CNN
+F 1 "Conn_01x02" H 4570 4526 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" H 4650 4400 50  0001 C CNN
+F 3 "~" H 4650 4400 50  0001 C CNN
+	1    4650 4400
+	-1   0    0    -1  
+$EndComp
 Wire Bus Line
 	3500 1350 3500 5700
 Wire Bus Line
@@ -819,4 +685,10 @@ Wire Bus Line
 	4400 4600 4400 5700
 Wire Bus Line
 	8100 3400 8100 6200
+Text GLabel 1950 5100 3    50   Input ~ 0
+MOTOR_GND
+Text GLabel 1950 3450 3    50   Input ~ 0
+MOTOR_GND
+Text GLabel 1950 1800 3    50   Input ~ 0
+MOTOR_GND
 $EndSCHEMATC
