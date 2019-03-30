@@ -1,0 +1,174 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5C9DD72D
+P 1300 2800
+F 0 "J2" H 1406 2978 50  0000 C CNN
+F 1 "Battery" H 1406 2887 50  0000 C CNN
+F 2 "" H 1300 2800 50  0001 C CNN
+F 3 "~" H 1300 2800 50  0001 C CNN
+	1    1300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5C9DD850
+P 9700 2000
+F 0 "J3" H 9806 2178 50  0000 C CNN
+F 1 "Power" H 9806 2087 50  0000 C CNN
+F 2 "" H 9700 2000 50  0001 C CNN
+F 3 "~" H 9700 2000 50  0001 C CNN
+	1    9700 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5C9DD8C0
+P 9700 2450
+F 0 "J4" H 9806 2628 50  0000 C CNN
+F 1 "Power" H 9806 2537 50  0000 C CNN
+F 2 "" H 9700 2450 50  0001 C CNN
+F 3 "~" H 9700 2450 50  0001 C CNN
+	1    9700 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5C9DD91A
+P 9700 2900
+F 0 "J5" H 9806 3078 50  0000 C CNN
+F 1 "Power" H 9806 2987 50  0000 C CNN
+F 2 "" H 9700 2900 50  0001 C CNN
+F 3 "~" H 9700 2900 50  0001 C CNN
+	1    9700 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5C9DD946
+P 9700 3350
+F 0 "J6" H 9806 3528 50  0000 C CNN
+F 1 "Power" H 9806 3437 50  0000 C CNN
+F 2 "" H 9700 3350 50  0001 C CNN
+F 3 "~" H 9700 3350 50  0001 C CNN
+	1    9700 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 2 1 5C9DE0BA
+P 2600 2250
+F 0 "SW1" H 2600 2535 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 2600 2444 50  0000 C CNN
+F 2 "" H 2600 2250 50  0001 C CNN
+F 3 "" H 2600 2250 50  0001 C CNN
+	2    2600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 5C9DE02A
+P 2600 1750
+F 0 "SW1" H 2600 2035 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 2600 1944 50  0000 C CNN
+F 2 "" H 2600 1750 50  0001 C CNN
+F 3 "" H 2600 1750 50  0001 C CNN
+	1    2600 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2250 2400 2250
+Wire Notes Line
+	2300 1400 2300 2450
+Wire Notes Line
+	2300 2450 2900 2450
+Wire Notes Line
+	2900 2450 2900 1400
+Wire Notes Line
+	2300 1400 2900 1400
+Wire Wire Line
+	2800 2350 3000 2350
+Wire Wire Line
+	3000 2350 3000 2900
+Wire Wire Line
+	3000 2900 1500 2900
+Wire Wire Line
+	2800 1850 3100 1850
+Wire Wire Line
+	3100 1850 3100 2800
+Wire Wire Line
+	3100 2800 1500 2800
+Wire Wire Line
+	9000 2000 9500 2000
+Wire Wire Line
+	9500 2100 9100 2100
+Wire Wire Line
+	9500 2550 9100 2550
+Wire Wire Line
+	9100 2100 9100 2550
+Wire Wire Line
+	9100 3450 9500 3450
+Connection ~ 9100 2550
+Wire Wire Line
+	9100 2550 9100 3000
+Wire Wire Line
+	9500 3000 9100 3000
+Connection ~ 9100 3000
+Wire Wire Line
+	9100 3000 9100 3450
+Wire Wire Line
+	9500 3350 9000 3350
+Wire Wire Line
+	9000 3350 9000 2900
+Wire Wire Line
+	9500 2450 9000 2450
+Connection ~ 9000 2450
+Wire Wire Line
+	9000 2450 9000 2000
+Wire Wire Line
+	9500 2900 9000 2900
+Connection ~ 9000 2900
+Wire Wire Line
+	9000 2900 9000 2450
+Text GLabel 9000 1700 1    50   Input ~ 0
+VOUT
+Wire Wire Line
+	9000 1700 9000 2000
+Connection ~ 9000 2000
+Text GLabel 9100 1700 1    50   Input ~ 0
+GND
+Wire Wire Line
+	9100 1700 9100 2100
+Connection ~ 9100 2100
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5C9E579F
+P 1200 1850
+F 0 "J1" H 1255 2167 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1255 2076 50  0000 C CNN
+F 2 "" H 1250 1810 50  0001 C CNN
+F 3 "~" H 1250 1810 50  0001 C CNN
+	1    1200 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1950 2150 1950
+Wire Wire Line
+	2150 1950 2150 2250
+Wire Wire Line
+	1500 1750 2400 1750
+$EndSCHEMATC
